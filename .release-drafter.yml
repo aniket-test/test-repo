@@ -1,0 +1,14 @@
+name: "Automated Release Notes"
+tag_template: "v$NEXT_PATCH_VERSION"
+categories:
+  - title: "🔧 Enhancements"
+    label: "enhancement"
+  - title: "🐛 Bug Fixes"
+    label: "bug"
+  - title: "📚 Documentation"
+    label: "documentation"
+  - title: "🧹 Chores"
+    label: "chore"
+
+change_template: "- $TITLE (#$NUMBER)"
+versioning-strategy: increase
